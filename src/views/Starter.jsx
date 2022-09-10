@@ -1,7 +1,6 @@
 import { Col, Row } from "reactstrap";
 import SalesChart from "../components/dashboard/SalesChart";
 import Feeds from "../components/dashboard/Feeds";
-import ProjectTables from "../components/dashboard/ProjectTable";
 import TopCards from "../components/dashboard/TopCards";
 
 const Starter = () => {
@@ -56,12 +55,6 @@ const Starter = () => {
         </Col>
       </Row>
       {/***Table ***/}
-      <Row>
-        <Col lg="12">
-          <ProjectTables />
-        </Col>
-      </Row>
-      {/***Blog Cards***/}
       
     </div>
   );
